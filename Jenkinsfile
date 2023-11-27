@@ -8,7 +8,7 @@ pipeline{
 		}
         stage('build'){
             steps{
-                sh 'python3 factorialnumber.py'
+                sh 'python3 /home/weblogic/devOps/samplelinux/factorialnumber.py'
             }
         }
 	}
